@@ -7,7 +7,7 @@ const Post = (props) => {
             <img src="https://i.pinimg.com/280x280_RS/92/06/97/920697e6b14b5a37f80802711f20020f.jpg" alt="ava" />
             {props.message}
             <div>
-                <span>likes: {props.likecounter}</span>
+                <span>likes: {props.likeCounter}</span>
             </div>
 
         </div>
