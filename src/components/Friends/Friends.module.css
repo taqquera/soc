@@ -1,0 +1,18 @@
+.friends {
+    margin-top: 10px;
+}
+
+.friendsTitle {
+    color: white;
+}
+
+.itemsWrapper {
+    display: grid;
+    grid-template-columns: 60px 60px 60px;
+}
+
+.avatars {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
