@@ -7,8 +7,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { addPost, updateNewPostText } from './redux/state';
 
-let rerenderEntireTree = (state) => {
+
   const root = ReactDOM.createRoot(document.getElementById('root'));
+  let rerenderEntireTree = (state) => {
   root.render(
   <React.StrictMode>
     <App state={state} addPost={addPost} updateNewPostText={updateNewPostText} />

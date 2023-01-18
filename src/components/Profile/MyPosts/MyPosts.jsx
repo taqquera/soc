@@ -9,6 +9,7 @@ import Post from "./Post/Post";
 
         let addPost = () => {
             props.addPost();
+            newPostElement.current.value = '';
         }
 
         let onPostChange = () => { 
