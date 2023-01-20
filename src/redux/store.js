@@ -35,7 +35,7 @@ let store = {
             ],
             newMessageBody: ''
         },
-},
+    },
     _callSubscriber() {
         console.log('State was changed')
     },
